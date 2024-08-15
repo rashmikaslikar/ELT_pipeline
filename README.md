@@ -28,7 +28,8 @@ Initial details of the data:
 - Data extracted corresponds to 2 units with muid "95ce3367-cbce-4a4d-bbe3-da082831d7bd" and "1db7649e-9342-4e04-97c7-f0ebb88ed1f8"
 - For the 2 units meter data is extracted to get the energy consumption for the month of February 2023
 
-### EDA of unit "95ce3367-cbce-4a4d-bbe3-da082831d7bd" 
+### Specifications  
+#### Unit "95ce3367-cbce-4a4d-bbe3-da082831d7bd" 
 - Data contains the following parameters
   - measurement (unique values: energy)
   - timestamp
@@ -47,7 +48,27 @@ Initial details of the data:
     
   ![image info](images/data_1_nan.jpg)
 
-- Visualize the time series data representing energy consumption of unit 95ce3367-cbce-4a4d-bbe3-da082831d7bd for the month of February 2023
+#### Unit "1db7649e-9342-4e04-97c7-f0ebb88ed1f8" 
+- Data contains the following parameters
+  - measurement (unique values: energy)
+  - timestamp
+  - 0100021D00FF (energy units consumed)
+  - muid (unique values: 1db7649e-9342-4e04-97c7-f0ebb88ed1f8)
+  - quality (unique values: measured)
+  
+  ![image info](images/muid2.jpg)
+
+- Sampling rate
+  - Data is extracted every 15 minutes of the day from 00:00:00, 01.02.2023 until 23:45:00, 28.02.2023
+- Entity measured
+  - Energy
+- Missing values
+  - None
+    
+  ![image info](images/data_2_nan.jpg)
+
+### Visualization of the time series data 
+#### Energy consumption of unit 95ce3367-cbce-4a4d-bbe3-da082831d7bd for the month of February 2023
   
   ![image info](images/data_1_time_series.png)
 
@@ -60,6 +81,21 @@ Initial details of the data:
    - Majority consumption is baseline in the range of 0.0114 to 0.1063 units
    - Maximum energy consumed is 0.9612 units
    - Total energy consumed for the month of February is 97.6082 units
+ 
+#### Energy consumption of unit 1db7649e-9342-4e04-97c7-f0ebb88ed1f8 for the month of February 2023
+  
+  ![image info](images/data_2_time_series.png)
+
+#### Observations from the Plot:
+- Regular Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
+- Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant.
+  
+  ![image info](images/data_2_histogram.png)  
+
+   - Majority consumption is baseline in the range of 0.0114 to 0.1063 units
+   - Maximum energy consumed is 0.9612 units
+   - Total energy consumed for the month of February is 97.6082 units
+
 
 #### Weekly variations  
 
