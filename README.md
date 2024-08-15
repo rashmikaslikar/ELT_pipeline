@@ -40,11 +40,16 @@ Initial details of the data:
 
 - Sampling rate
   - Data is extracted every 15 minutes of the day from 00:00:00, 01.02.2023 until 23:45:00, 28.02.2023
-- Quantity measured
+- Entity measured
   - Energy
 - Missing values
   - None
-  -  
+    
+  ![image info](images/data_1_nan.jpg)
+
+- Visualize the time series data representing energy consumption of unit 95ce3367-cbce-4a4d-bbe3-da082831d7bd for the month of February 2023
+  
+  ![image info](images/data_1_time series.png)
 
   
 
