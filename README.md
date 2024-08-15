@@ -49,7 +49,11 @@ Initial details of the data:
 
 - Visualize the time series data representing energy consumption of unit 95ce3367-cbce-4a4d-bbe3-da082831d7bd for the month of February 2023
   
-  ![image info](images/data_1_time series.png)
+  ![image info](images/data_1_time_series.png)
+
+ - Observations from the Plot:
+   - Regular Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
+   - Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant. 
 
   
 
