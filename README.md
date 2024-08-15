@@ -53,7 +53,16 @@ Initial details of the data:
 
  - Observations from the Plot:
    - Regular Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
-   - Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant. 
+   - Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant.
+  
+  ![image info](images/data_1_histogram.png)  
+
+   - Majority consumption is baseline in the range of 0.0114 to 0.1063 units
+   - Maximum energy consumed is 0.9612 units
+   - Total energy consumed for the month of February is 97.6082 units
+
+ - Weekly variations
+ -  
 
   
 
