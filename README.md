@@ -162,17 +162,25 @@ Initial details of the data:
 ![image info](images/data2_hourly_sum.png)  
 
 - Observation
-  - The energy consumption is heavily concentrated between 7 AM and 2 PM, with the highest usage occurring around 10 AM to 12 PM. There is very little energy consumption outside of these hours.
+  - The energy consumption is heavily concentrated between 7 AM and 3 PM, with the highest usage occurring around 9 AM to 13 PM. There is very little energy consumption outside of these hours.
 
 - Potential Hypothesis
   - The pattern suggests that the facility or equipment is primarily operational during the morning to early afternoon hours, possibly corresponding to the active working or production shifts. The concentration of energy usage in the morning hours could indicate that this period involves the most energy-intensive activities, such as running machinery, processing materials, or peak operational demand.
  
-#### Hypothesis for the unit with muid "95ce3367-cbce-4a4d-bbe3-da082831d7bd"
+### Hypothesis for the unit with muid "95ce3367-cbce-4a4d-bbe3-da082831d7bd"
 
 The energy consumption data likely corresponds to a facility with specific operational events or automated processes that trigger significant energy use at certain times and on specific days. Peaks in daily energy consumption on the 8th and 13th suggest extraordinary activities or events, while the hourly peaks indicate regular scheduled processes, possibly aligned with shift changes, maintenance routines, or automated systems that operate at specific times of the day.
 
   - Daily Spikes: The unusual peaks on specific days suggest events or operations that do not occur regularly. Identifying what happened on these days could help explain the higher energy usage.
   - Hourly Peaks: The regularity of the hourly spikes implies recurring events, likely tied to the operational schedule of the facility, such as shift changes or routine processes.
+
+### Hypothesis for the unit with muid "1db7649e-9342-4e04-97c7-f0ebb88ed1f8"
+
+The energy consumption data likely represents a facility where operations are concentrated during the early to mid-morning hours, with significant spikes in usage corresponding to major scheduled activities on the 21st and 27th of February. The regular energy usage pattern during the day suggests a structured work schedule with peak demand in the morning, likely driven by specific high-energy processes, while the spikes on the 21st and 27th could correspond to unique events or critical operations requiring substantial energy consumption.
+
+  - Daily Spikes: The distinct spikes on the 21st and 27th indicate that these days involved operations that required a large amount of energy, which might not be a part of the regular daily operations.
+  - Hourly Concentration: The clustering of energy consumption around the late morning and early afternoon hours supports the idea that this is the primary period for operational activities, with the highest demand occurring when the facility is most active.
+
 
 
 
