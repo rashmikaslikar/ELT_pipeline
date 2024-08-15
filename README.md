@@ -181,6 +181,18 @@ The energy consumption data likely represents a facility where operations are co
   - Daily Spikes: The distinct spikes on the 21st and 27th indicate that these days involved operations that required a large amount of energy, which might not be a part of the regular daily operations.
   - Hourly Concentration: The clustering of energy consumption around the late morning and early afternoon hours supports the idea that this is the primary period for operational activities, with the highest demand occurring when the facility is most active.
 
+### Task B - Backend
+
+At a high level, we're going to:
+- Extract and Load data from sources to destinations.
+- Transform data for downstream applications.
+- Write an endpoint to access the data from a frontend application.
+  
+This process is more commonly known as ELT, but there are variants such as ETL and reverse ETL, etc. They are all essentially the same underlying workflows but have slight differences in the order of data flow and where data is processed and stored.
+
+#### Overview of solution
+
+
 
 
 
