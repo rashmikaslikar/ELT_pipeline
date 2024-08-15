@@ -190,7 +190,9 @@ At a high level, we're going to:
   
 This process is more commonly known as ELT, but there are variants such as ETL and reverse ETL, etc. They are all essentially the same underlying workflows but have slight differences in the order of data flow and where data is processed and stored.
 
-#### Overview of solution
+#### Overview of solution  
+
+![image info](images/task_b_pipeline.png)  
 
 
 
