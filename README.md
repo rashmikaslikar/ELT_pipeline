@@ -28,7 +28,25 @@ Initial details of the data:
 - Data extracted corresponds to 2 units with muid "95ce3367-cbce-4a4d-bbe3-da082831d7bd" and "1db7649e-9342-4e04-97c7-f0ebb88ed1f8"
 - For the 2 units meter data is extracted to get the energy consumption for the month of February 2023
 
-### EDA of unit "95ce3367-cbce-4a4d-bbe3-da082831d7bd"  
+### EDA of unit "95ce3367-cbce-4a4d-bbe3-da082831d7bd" 
+- Data contains the following parameters
+  - measurement (unique values: energy)
+  - timestamp
+  - 0100011D00FF (energy units consumed)
+  - muid (unique values: 95ce3367-cbce-4a4d-bbe3-da082831d7bd)
+  - quality (unique values: measured)
+  
+  ![image info](images/muid1.jpg)
+
+- Sampling rate
+  - Data is extracted every 15 minutes of the day from 00:00:00, 01.02.2023 until 23:45:00, 28.02.2023
+- Quantity measured
+  - Energy
+- Missing values
+  - None  
+
+  
+
 
 
  
