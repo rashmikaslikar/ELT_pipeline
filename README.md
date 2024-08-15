@@ -51,9 +51,9 @@ Initial details of the data:
   
   ![image info](images/data_1_time_series.png)
 
- - Observations from the Plot:
-   - Regular Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
-   - Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant.
+#### Observations from the Plot:
+- Regular Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
+- Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant.
   
   ![image info](images/data_1_histogram.png)  
 
@@ -61,8 +61,47 @@ Initial details of the data:
    - Maximum energy consumed is 0.9612 units
    - Total energy consumed for the month of February is 97.6082 units
 
- - Weekly variations
- -  
+#### Weekly variations  
+
+![image info](images/data1_weekly_sum.png)  
+
+- X-axis represents the week number of the year 2023
+- Energy consumption is high in the 2nd, 3rd and 4th week of February
+
+#### Weekday variations 
+
+![image info](images/data_1_per_weekday.png)  
+
+- X-axis represents the day of the week in the ISO format where 1 = Monday and 7 = Sunday
+- Energy consumption is high on Saturdays, Sundays and Mondays
+
+#### Daily variations  
+
+![image info](images/data1_daily_sum.png)  
+
+- Observation
+  - There is a noticeable peak in energy consumption on the 8th and 13th of February. Other days show varying levels of energy use, with some lower consumption days scattered throughout the month.
+
+- Potential Hypothesis
+  - The spikes on the 8th and 13th could correlate with specific events or activities that occurred on these days, such as a high-demand production run, a special event in an office building, or maintenance activities requiring more energy. The variability across the month suggests that energy use is not consistent and may be influenced by operational requirements or specific external factors on certain days.
+
+#### Hourly variations  
+
+![image info](images/data1_hourly_sum.png)  
+
+- Observation
+  - There are distinct peaks in energy consumption during specific hours, particularly around 1 AM, 6 AM, 1 PM, and 10 PM. The highest peak appears around 10 PM.
+- Potential Hypothesis
+  - The hourly energy consumption pattern suggests that there may be scheduled activities or automated processes occurring at these specific times. For example, the high energy use at 10 PM could indicate a nightly process, such as data backups, machinery shutdown routines, or heating/cooling systems kicking in during off-hours. The spike at 1 PM may correspond to lunchtime activities or a specific production shift, while the 6 AM peak could be tied to early morning startup activities.
+ 
+#### Hypothesis for the unit with muid "95ce3367-cbce-4a4d-bbe3-da082831d7bd"
+
+The energy consumption data likely corresponds to a facility with specific operational events or automated processes that trigger significant energy use at certain times and on specific days. Peaks in daily energy consumption on the 8th and 13th suggest extraordinary activities or events, while the hourly peaks indicate regular scheduled processes, possibly aligned with shift changes, maintenance routines, or automated systems that operate at specific times of the day.
+
+  - Daily Spikes: The unusual peaks on specific days suggest events or operations that do not occur regularly. Identifying what happened on these days could help explain the higher energy usage.
+  - Hourly Peaks: The regularity of the hourly spikes implies recurring events, likely tied to the operational schedule of the facility, such as shift changes or routine processes.
+
+
 
   
 
