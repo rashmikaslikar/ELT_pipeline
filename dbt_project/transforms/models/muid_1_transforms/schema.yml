@@ -1,0 +1,23 @@
+# models/schema.yml
+
+version: 2
+
+sources:
+  - name: public
+    database: exnaton_test
+    schema: public
+    tables:
+      - name: muid_1
+
+models:
+  - name: muid_1_transforms
+    description: "Extract JSONB array elements into a table"
+    columns:
+      - name: tags
+        description: "tags from JSONB element"
+      - name: measurement
+        description: "measurement from JSONB element"
+      - name: timestamp
+        description: "timestamp from JSONB element"
+      - name: 0100011D00FF
+        description: "0100011D00FF from JSONB element"
