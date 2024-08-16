@@ -49,7 +49,7 @@ Initial details of the data:
   ![image info](images/data_1_time_series.png)
 
 #### Observations from the Plot:
-- Regular Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
+- Spikes: There are significant spikes in energy consumption that occur regularly, possibly indicating events or activities that lead to higher energy use. These spikes seem to occur daily, with varying intensities. No clear pattern is visible
 - Low Baseline Consumption: There is a consistent low level of consumption throughout most of the day, which likely represents a baseline level of energy usage that remains relatively constant.
   
   ![image info](images/data_1_histogram.png)  
@@ -63,7 +63,7 @@ Initial details of the data:
   ![image info](images/data_2_time_series.png)
 
 #### Observations from the Plot:
-- Sporadic Spikes: There are distinct, sharp spikes in energy consumption at irregular intervals throughout the month. These spikes indicate short bursts of high energy usage, followed by periods of little energy consumption. The spikes are not evenly distributed, with some days showing multiple spikes and others with little or no activity. The pattern suggests that the events leading to high energy consumption are likely not daily but instead occur sporadically, possibly tied to specific activities or events.  
+- Spikes: There are sharp spikes in energy consumption at irregular intervals throughout the month. These spikes indicate short bursts of high energy usage, followed by periods of little energy consumption. The spikes are not evenly distributed, with some days showing multiple spikes and others with little activity. The pattern suggests that the events leading to high energy consumption are likely not daily but instead occur sporadically, possibly tied to specific activities or events.  
 - Low or No Baseline Consumption: Between the spikes, the energy consumption drops to nearly zero or very low values, indicating periods of inactivity or minimal energy usage.
   
   ![image info](images/data_2_histogram.png)  
@@ -131,7 +131,7 @@ Initial details of the data:
 - Observation
   - There are distinct peaks in energy consumption during specific hours, particularly around 1 PM, 3 PM, 6 PM, 7 PM and 10 PM. The highest peak appears around 10 PM.
 - Potential Hypothesis
-  - The hourly energy consumption pattern suggests that there may be scheduled activities or automated processes occurring at these specific times. For example, the high energy use at 10 PM could indicate a nightly process, such as data backups, machinery shutdown routines, or heating/cooling systems kicking in during off-hours. The spike at 1 PM may correspond to lunchtime activities or a specific production shift.
+  - The hourly energy consumption pattern suggests that there may be scheduled activities or automated processes occurring at these specific times. For example, the high energy use at 10 PM could indicate a nightly process, such as data backups, machinery shutdown routines, or heating/cooling systems. The spike at 1 PM may correspond to lunchtime activities.
  
 #### Unit "1db7649e-9342-4e04-97c7-f0ebb88ed1f8"  
 
@@ -141,21 +141,19 @@ Initial details of the data:
   - The energy consumption is heavily concentrated between 7 AM and 3 PM, with the highest usage occurring around 9 AM to 13 PM. There is very little energy consumption outside of these hours.
 
 - Potential Hypothesis
-  - The pattern suggests that the facility or equipment is primarily operational during the morning to early afternoon hours, possibly corresponding to the active working or production shifts. The concentration of energy usage in the morning hours could indicate that this period involves the most energy-intensive activities, such as running machinery, processing materials, or peak operational demand.
+  - The pattern suggests that the facility is primarily operational during the morning to early afternoon hours involving the most energy-intensive activities, such as running machinery or peak operational demand.
  
 ### Hypothesis for the unit with muid "95ce3367-cbce-4a4d-bbe3-da082831d7bd"
 
-The energy consumption data likely corresponds to a facility with specific operational events or automated processes that trigger significant energy use at certain times and on specific days. Peaks in daily energy consumption on the 8th and 13th suggest extraordinary activities or events, while the hourly peaks indicate regular scheduled processes, possibly aligned with shift changes, maintenance routines, or automated systems that operate at specific times of the day.
+The energy consumption data likely corresponds to a facility with regular scheduled processes/recurring events, such as shift changes, maintenance routines etc with specific events or automated processes that trigger significant energy use at certain times and on specific days. 
 
-  - Daily Spikes: The unusual peaks on specific days suggest events or operations that do not occur regularly. Identifying what happened on these days could help explain the higher energy usage.
-  - Hourly Peaks: The regularity of the hourly spikes implies recurring events, likely tied to the operational schedule of the facility, such as shift changes or routine processes.
+The regularity of the hourly spikes implies recurring events.
 
 ### Hypothesis for the unit with muid "1db7649e-9342-4e04-97c7-f0ebb88ed1f8"
 
-The energy consumption data likely represents a facility where operations are concentrated during the early to mid-morning hours, with significant spikes in usage corresponding to major scheduled activities on the 21st and 27th of February. The regular energy usage pattern during the day suggests a structured work schedule with peak demand in the morning, likely driven by specific high-energy processes, while the spikes on the 21st and 27th could correspond to unique events or critical operations requiring substantial energy consumption.
+The energy consumption data likely represents a facility where operations are concentrated during the early to mid-morning hours. A structured work schedule with peak demand in the morning, likely driven by specific high-energy processes.
 
-  - Daily Spikes: The distinct spikes on the 21st and 27th indicate that these days involved operations that required a large amount of energy, which might not be a part of the regular daily operations.
-  - Hourly Concentration: The clustering of energy consumption around the late morning and early afternoon hours supports the idea that this is the primary period for operational activities, with the highest demand occurring when the facility is most active.
+The clustering of energy consumption around the late morning and early afternoon hours supports the idea that this is the primary period for operational activities, with the highest demand occurring when the facility is most active.
 
 ### Autocorrelation  
 ![image info](images/data1_autocorrelation.png)   
