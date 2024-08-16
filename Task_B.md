@@ -9,13 +9,13 @@ This process is more commonly known as ELT, but there are variants such as ETL a
 
 ### Overview of solution  
 
-![image info](images/task_b_pipeline.png)  
-
 ### Technology  
 1. Airbyte open source 0.63.5
 2. dbt core 1.8.3
 3. Flask 3.0.3
 4. Docker 24.0.6
+
+![image info](images/task_b_pipeline.png)  
 
 ### Airbyte open source 
 ### Extract and Load  
