@@ -11,6 +11,13 @@ This process is more commonly known as ELT, but there are variants such as ETL a
 
 ![image info](images/task_b_pipeline.png)  
 
+### Technology  
+1. Airbyte open source 0.63.5
+2. dbt core 1.8.3
+3. Flask 3.0.3
+4. Docker 24.0.6
+
+### Airbyte open source 
 ### Extract and Load  
 The first step in our data pipeline is to extract data from the source and load it into the appropriate destination. We're going to use the open-source tool [Airbyte](https://docs.airbyte.com/using-airbyte/getting-started/) v0.63.5 to create connections between our data sources and destinations. Airbyte enables creating pipelines that can be scaled, monitored etc
 
@@ -51,11 +58,14 @@ Configure the connection between the previously defined source and destination
 - Schedule type:
   - Manual
 - To sync the data into the postgres database, manually click on the 'Sync now' option
+
 ![image info](images/data_sync.jpg)
   
 - Other methods to sync data include: 
   - Scheduled with replication frequency (eg. every 24 hours)
   - Cron
+ 
+### dbt core
 
 
 
