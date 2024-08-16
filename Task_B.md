@@ -126,7 +126,15 @@ Why dbt? Scalable, more agile, faster, secure and easy. dbt delivers production 
 ### API Endpoint
 - We will create a `Flask` project to serve the data from PostgreSQL
 - We will use `pscycopg2` to establish and maintain a robust connection between our Python application and PostgreSQL database
-- 
+- Run app:
+  ```python app.py```
+- Request data:
+  ```curl -X GET "http://localhost:5000/data?table=muid_1_transforms"```
+- Documentation for Frontend Developer
+  - Base URL: http://localhost:5000/
+  - Endpoint URL: /data
+  - Supported query parameters: table, start_date, end_date, measurement, quality
+  - Response format: JSON array of data rows
   
 
 
