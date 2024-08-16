@@ -22,5 +22,5 @@ Task is divided into 2 parts
 - Please retrieve the data from the GET endpoint and store it in a database of your choice.
 - Write an endpoint to access the data from a frontend application. Which kind of query parameters might be useful to access the data from the frontend? Document your API for your fellow frontend developer.
 - Bonus: Provide environment files and/or Deployment files (dockerfile, docker-compose, k8s resource definitions) to deploy the backend.
-- - Please refer to Task_B.md for the solution 
+- Please refer to Task_B.md for the solution 
 
