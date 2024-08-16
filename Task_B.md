@@ -23,15 +23,23 @@ Our source is an HTTP API.
 - endpoint 2: 1db7649e-9342-4e04-97c7-f0ebb88ed1f8.json
 
 #### Define HTTP API source in Airbyte  
-Airbyte does not have a prebuilt HTTP API source. The custom source will have to built using Airbyte's Connector Builder utility. Please follow this [tutorial](https://docs.airbyte.com/connector-development/connector-builder-ui/tutorial) to define and create the source.
+Airbyte does not have a prebuilt HTTP API source. The custom source will have to built using Airbyte's Connector Builder utility. Please follow this [tutorial](https://docs.airbyte.com/connector-development/connector-builder-ui/tutorial) to define and create the source. Our source will have 2 streams representing the 2 API endpoints. 
+
+![image info](images/source.jpg)
 
 ### Destination  
 A destination is a data warehouse, data lake, database, or an analytics tool where you want to load your ingested data.  
 #### Define Postgres destination in Airbyte  
-Configure destination using the prebuilt Postgres destination
+Configure destination using the prebuilt Postgres destination  
+
+![image info](images/destination.jpg)
 
 ### Connection  
 A connection is an automated data pipeline that replicates data from a source to a destination. It links a configured source (based on a source connector) to a configured destination (based on a destination connector) to perform syncs. It defines things like the replication frequency (e.g. hourly, daily, manually) and which streams to replicate.
 #### Create the connection  
-Configure the connection between the previously defined source and destination
+Configure the connection between the previously defined source and destination  
+
+![image info](images/connection.jpg)  
+
+#### Connection configuration
 
