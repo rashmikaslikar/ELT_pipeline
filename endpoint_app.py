@@ -14,13 +14,11 @@ def get_db_connection():
 
 @app.route('/data', methods=['GET'])
 def get_data():
-    limit = request.args.get('limit', default=10, type=int)
-    offset = request.args.get('offset', default=0, type=int)
     start_date = request.args.get('start_date')
     end_date = request.args.get('end_date')
-    muid = request.args.get('muid')
+    table = request.args.get('table')
 
-    query = f'SELECT * FROM {muid} WHERE 1=1'
+    query = f'SELECT * FROM {table} WHERE 1=1'
     params = []
 
     if start_date:
@@ -29,9 +27,6 @@ def get_data():
     if end_date:
         query += ' AND timestamp_ <= %s'
         params.append(end_date)
-
-    query += ' LIMIT %s OFFSET %s'
-    params.extend([limit, offset])
 
     conn = get_db_connection()
     cur = conn.cursor()

@@ -41,5 +41,5 @@ def prepare_df(data, value_id):
 data_1 = get_data("https://exnaton-public-s3-bucket20230329123331528000000001.s3.eu-central-1.amazonaws.com/challenge/95ce3367-cbce-4a4d-bbe3-da082831d7bd.json")
 df_1 = prepare_df(data_1,value_id1)
 
-renderer = StreamlitRenderer(df_1)#, spec='pygwalker_spec_data_1.json')
+renderer = StreamlitRenderer(df_1, spec='pygwalker_spec_data_1.json')
 renderer.explorer()
