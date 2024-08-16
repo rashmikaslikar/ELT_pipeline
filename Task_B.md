@@ -41,5 +41,20 @@ Configure the connection between the previously defined source and destination
 
 ![image info](images/connection.jpg)  
 
-#### Connection configuration
+##### Connection configuration 
+
+- Streams
+  - muid_1: 95ce3367-cbce-4a4d-bbe3-da082831d7bd.json
+  - muid_2: 1db7649e-9342-4e04-97c7-f0ebb88ed1f8.json
+- Sync mode:
+  - Full refresh, Append
+- Schedule type:
+  - Manual
+To sync the data into the postgres database, manually click on the 'Sync now' option.  
+Other methods to sync data include: 
+- Scheduled with replication frequency (eg. every 24 hours)
+- Cron
+
+
+
 
