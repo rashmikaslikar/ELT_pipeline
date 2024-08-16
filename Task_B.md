@@ -116,7 +116,10 @@ Configure the connection between the previously defined source and destination
                 ├──muid_2_transforms.sql
                 ├──schema.yaml
     ```
-   - Inside our models/muid_1_transforms/muid_1_transforms.sql file we'll create a new table that performs some transformations on the original postgres table muid_1
+   - Inside our `models/muid_1_transforms/muid_1_transforms.sql` file we'll create a new table that performs transformations to extract jsonb array elements from original postgres table muid_1 into a new table muid_1_transforms
+   - Inside our `models/muid_1_transforms/schema.yaml` we'll define the schemas for each of the features in our transformed data
+- Execute the transforms with `dbt run`
+  
 
 
 
