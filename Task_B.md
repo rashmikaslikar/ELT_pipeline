@@ -103,7 +103,20 @@ Configure the connection between the previously defined source and destination
             ├──tests
 
 ```
-- 
+- Test the connection with `dbt debug`
+- Create models to perform the transformation on postgres tables.
+  - Create 2 directories in the model directory with the following structure
+    ```
+    ├──models
+              ├──example
+              ├──muid_1_transforms
+                ├──muid_1_transforms.sql
+                ├──schema.yaml
+              ├──muid_2_transforms
+                ├──muid_2_transforms.sql
+                ├──schema.yaml
+    ```
+   - Inside our models/muid_1_transforms/muid_1_transforms.sql file we'll create a new table that performs some transformations on the original postgres table muid_1
 
 
 
