@@ -79,6 +79,17 @@ Configure the connection between the previously defined source and destination
   
   ```dbt init transforms```
 
+- Enter correct postgres details to setup the connection between dbt and postgres
+```
+      dbname: exnaton_test
+      host: localhost
+      pass: password
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: username
+```
 - This will create a new dbt project in the dbt_project directory, with the following structure:   
 ```
     ├── dbt_project
@@ -92,6 +103,7 @@ Configure the connection between the previously defined source and destination
             ├──tests
 
 ```
+- 
 
 
 
