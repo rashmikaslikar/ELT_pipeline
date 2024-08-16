@@ -65,10 +65,11 @@ Configure the connection between the previously defined source and destination
   - Scheduled with replication frequency (eg. every 24 hours)
   - Cron
  
-### dbt core  
+### dbt core 
+Why dbt? Scalable, more agile, faster, secure and easy. dbt delivers production functionality around version control, testing, documentation, packaging, etc. out of the box. This becomes crucial for maintaining observability and high quality data workflows.  
+
 ### Transform  
 - Once we've extracted and loaded our data, we need to transform the data so that it's ready for downstream applications.
-- dbt delivers production functionality around version control, testing, documentation, packaging, etc. out of the box. This becomes crucial for maintaining observability and high quality data workflows.
 - Install dbt core and dbt postgres
   
   ```python -m pip install dbt-core dbt-postgres```
