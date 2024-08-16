@@ -105,7 +105,7 @@ Configure the connection between the previously defined source and destination
 ```
 - Test the connection with `dbt debug`
 - Create models to perform the transformation on postgres tables.
-  - Create 2 directories in the model directory with the following structure
+  - Create 2 directories in the models directory with the following structure
     ```
     ├──models
               ├──example
