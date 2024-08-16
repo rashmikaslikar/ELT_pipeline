@@ -157,6 +157,10 @@ The energy consumption data likely represents a facility where operations are co
   - Daily Spikes: The distinct spikes on the 21st and 27th indicate that these days involved operations that required a large amount of energy, which might not be a part of the regular daily operations.
   - Hourly Concentration: The clustering of energy consumption around the late morning and early afternoon hours supports the idea that this is the primary period for operational activities, with the highest demand occurring when the facility is most active.
 
+### Autocorrelation  
+![image info](images/data1_autocorrelation.png)   
+![image info](images/data2_autocorrelation.png) 
+
 
 
 
