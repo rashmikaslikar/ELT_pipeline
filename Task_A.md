@@ -129,9 +129,9 @@ Initial details of the data:
 ![image info](images/data1_hourly_sum.png)  
 
 - Observation
-  - There are distinct peaks in energy consumption during specific hours, particularly around 1 AM, 6 AM, 1 PM, and 10 PM. The highest peak appears around 10 PM.
+  - There are distinct peaks in energy consumption during specific hours, particularly around 1 PM, 3 PM, 6 PM, 7 PM and 10 PM. The highest peak appears around 10 PM.
 - Potential Hypothesis
-  - The hourly energy consumption pattern suggests that there may be scheduled activities or automated processes occurring at these specific times. For example, the high energy use at 10 PM could indicate a nightly process, such as data backups, machinery shutdown routines, or heating/cooling systems kicking in during off-hours. The spike at 1 PM may correspond to lunchtime activities or a specific production shift, while the 6 AM peak could be tied to early morning startup activities.
+  - The hourly energy consumption pattern suggests that there may be scheduled activities or automated processes occurring at these specific times. For example, the high energy use at 10 PM could indicate a nightly process, such as data backups, machinery shutdown routines, or heating/cooling systems kicking in during off-hours. The spike at 1 PM may correspond to lunchtime activities or a specific production shift.
  
 #### Unit "1db7649e-9342-4e04-97c7-f0ebb88ed1f8"  
 
