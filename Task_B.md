@@ -1,4 +1,4 @@
-### Task B - Backend
+## Task B - Backend
 
 At a high level, we're going to:
 - Extract and Load data from source (HTTP API) to destination (Postgres)
@@ -7,7 +7,19 @@ At a high level, we're going to:
   
 This process is more commonly known as ELT, but there are variants such as ETL and reverse ETL, etc. They are all essentially the same underlying workflows but have slight differences in the order of data flow and where data is processed and stored.
 
-#### Overview of solution  
+### Overview of solution  
 
 ![image info](images/task_b_pipeline.png)  
+
+#### Extract and Load  
+The first step in our data pipeline is to extract data from the source and load it into the appropriate destination. We're going to use the open-source tool Airbyte v0.63.5 to create connections between our data sources and destinations. Airbyte enables creating pipelines that can be scaled, monitored etc
+
+#### Source  
+Our source is an HTTP API.  
+- base: url https://exnaton-public-s3-bucket20230329123331528000000001.s3.eu-central-1.amazonaws.com/challenge
+- endpoint 1: 95ce3367-cbce-4a4d-bbe3-da082831d7bd.json
+- endpoint 2: 1db7649e-9342-4e04-97c7-f0ebb88ed1f8.json
+
+##### Define HTTP API source in Airbyte  
+Airbyte does not have a prebuilt HTTP API source. The custom source will have to built using Airbyte's Connector Builder utility. Please follow this [tutorial](https://docs.airbyte.com/connector-development/connector-builder-ui/tutorial) to define and create the source.
 
