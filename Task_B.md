@@ -50,7 +50,9 @@ Configure the connection between the previously defined source and destination
   - Full refresh, Append
 - Schedule type:
   - Manual
-- To sync the data into the postgres database, manually click on the 'Sync now' option.  
+- To sync the data into the postgres database, manually click on the 'Sync now' option
+![image info](images/data_sync.jpg)
+  
 - Other methods to sync data include: 
   - Scheduled with replication frequency (eg. every 24 hours)
   - Cron
