@@ -18,6 +18,8 @@ This process is more commonly known as ELT, but there are variants such as ETL a
 ![image info](images/task_b_pipeline.png)  
 
 ### Airbyte open source 
+Why Airbyte? Open source (Open source helps keep your IT organization from getting blocked because a particular capability isn't available from a vendor), Intuitive graphical UI, big portfolio of sources and destinations, create custom connectors with ease, unified monizoring and debugging enables prompt detection of issues.  
+
 ### Extract and Load  
 The first step in our data pipeline is to extract data from the source and load it into the appropriate destination. We're going to use the open-source tool [Airbyte](https://docs.airbyte.com/using-airbyte/getting-started/) v0.63.5 to create connections between our data sources and destinations. Airbyte enables creating pipelines that can be scaled, monitored etc
 
@@ -119,7 +121,7 @@ Why dbt? Scalable, more agile, faster, secure and easy. dbt delivers production 
     ```
    - Inside our `models/muid_1_transforms/muid_1_transforms.sql` file we'll create a new table that performs transformations to extract jsonb array elements from original postgres table muid_1 into a new table muid_1_transforms
    - Inside our `models/muid_1_transforms/schema.yaml` we'll define the schemas for each of the features in our transformed data
-- Execute the transforms with `dbt run`
+- Execute the transforms with `dbt run`  
   
 
 
