@@ -63,7 +63,7 @@ Initial details of the data:
   ![image info](images/data_2_time_series.png)
 
 #### Observations from the Plot:
-- Sporadic Spikes: There are distinct, sharp spikes in energy consumption at irregular intervals throughout the month. These spikes indicate short bursts of high energy usage, followed by periods of little to no energy consumption. The spikes are not evenly distributed, with some days showing multiple spikes and others with little or no activity. The pattern suggests that the events leading to high energy consumption are likely not daily but instead occur sporadically, possibly tied to specific activities or events.  
+- Sporadic Spikes: There are distinct, sharp spikes in energy consumption at irregular intervals throughout the month. These spikes indicate short bursts of high energy usage, followed by periods of little energy consumption. The spikes are not evenly distributed, with some days showing multiple spikes and others with little or no activity. The pattern suggests that the events leading to high energy consumption are likely not daily but instead occur sporadically, possibly tied to specific activities or events.  
 - Low or No Baseline Consumption: Between the spikes, the energy consumption drops to nearly zero or very low values, indicating periods of inactivity or minimal energy usage.
   
   ![image info](images/data_2_histogram.png)  
