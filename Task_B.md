@@ -121,7 +121,12 @@ Why dbt? Scalable, more agile, faster, secure and easy. dbt delivers production 
     ```
    - Inside our `models/muid_1_transforms/muid_1_transforms.sql` file we'll create a new table that performs transformations to extract jsonb array elements from original postgres table muid_1 into a new table muid_1_transforms
    - Inside our `models/muid_1_transforms/schema.yaml` we'll define the schemas for each of the features in our transformed data
-- Execute the transforms with `dbt run`  
+- Execute the transforms with `dbt run`
+
+### API Endpoint
+- We will create a `Flask` project to serve the data from PostgreSQL
+- We will use `pscycopg2` to establish and maintain a robust connection between our Python application and PostgreSQL database
+- 
   
 
 
