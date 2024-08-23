@@ -1,6 +1,6 @@
 # Overview of the ELT pipeline implementation
 
-This is the official code repository of the project 'Exnaton_challenge'. This repository contains utilities for:
+This is the official code repository of the project 'ELT_pipeline'. This repository contains utilities for:
 - Exploratory Data Analysis of the energy data retrieved from the following API
   - [95ce3367-cbce-4a4d-bbe3-da082831d7bd.json](https://exnaton-public-s3-bucket20230329123331528000000001.s3.eu-central-1.amazonaws.com/challenge/95ce3367-cbce-4a4d-bbe3-da082831d7bd.json)
   - [1db7649e-9342-4e04-97c7-f0ebb88ed1f8.json](https://exnaton-public-s3-bucket20230329123331528000000001.s3.eu-central-1.amazonaws.com/challenge/1db7649e-9342-4e04-97c7-f0ebb88ed1f8.json)
