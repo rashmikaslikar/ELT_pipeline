@@ -1,4 +1,4 @@
-# Overview of the Exnaton Coding challenge
+# Overview of the ELT pipeline implementation
 
 This is the official code repository of the project 'Exnaton_challenge'. This repository contains utilities for:
 - Exploratory Data Analysis of the energy data retrieved from the following API
